@@ -1,0 +1,18 @@
+current directory: /Users/shafia/Documents/application_tracker/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/shafia/.local/share/mise/installs/ruby/3.4.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/shafia/Documents/application_tracker/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20251109-16563-4oxry6 sitelibdir\=./.gem.20251109-16563-4oxry6 clean
+
+current directory: /Users/shafia/Documents/application_tracker/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20251109-16563-4oxry6 sitelibdir\=./.gem.20251109-16563-4oxry6
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/shafia/Documents/application_tracker/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20251109-16563-4oxry6 sitelibdir\=./.gem.20251109-16563-4oxry6 install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20251109-16563-4oxry6/skiptrace/internal
+
+current directory: /Users/shafia/Documents/application_tracker/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20251109-16563-4oxry6 sitelibdir\=./.gem.20251109-16563-4oxry6 clean

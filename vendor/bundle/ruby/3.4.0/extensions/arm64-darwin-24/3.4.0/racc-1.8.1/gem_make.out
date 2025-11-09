@@ -1,0 +1,18 @@
+current directory: /Users/shafia/Documents/application_tracker/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/shafia/.local/share/mise/installs/ruby/3.4.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/shafia/Documents/application_tracker/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251109-16563-s3ok44 sitelibdir\=./.gem.20251109-16563-s3ok44 clean
+
+current directory: /Users/shafia/Documents/application_tracker/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251109-16563-s3ok44 sitelibdir\=./.gem.20251109-16563-s3ok44
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/shafia/Documents/application_tracker/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251109-16563-s3ok44 sitelibdir\=./.gem.20251109-16563-s3ok44 install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20251109-16563-s3ok44/racc
+
+current directory: /Users/shafia/Documents/application_tracker/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251109-16563-s3ok44 sitelibdir\=./.gem.20251109-16563-s3ok44 clean

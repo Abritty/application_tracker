@@ -1,0 +1,19 @@
+current directory: /Users/shafia/Documents/application_tracker/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+/Users/shafia/.local/share/mise/installs/ruby/3.4.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/shafia/Documents/application_tracker/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251109-16563-rnm0qy sitelibdir\=./.gem.20251109-16563-rnm0qy clean
+
+current directory: /Users/shafia/Documents/application_tracker/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251109-16563-rnm0qy sitelibdir\=./.gem.20251109-16563-rnm0qy
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/shafia/Documents/application_tracker/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251109-16563-rnm0qy sitelibdir\=./.gem.20251109-16563-rnm0qy install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20251109-16563-rnm0qy/debug
+
+current directory: /Users/shafia/Documents/application_tracker/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251109-16563-rnm0qy sitelibdir\=./.gem.20251109-16563-rnm0qy clean
