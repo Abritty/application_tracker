@@ -25,7 +25,9 @@
   </head>
 
   <body>
+    <%= render "shared/navbar" %>
     <div class="container py-3">
+      <%= render "shared/flash" %>
       <%= yield %>
     </div>
 

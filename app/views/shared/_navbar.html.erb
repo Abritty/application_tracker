@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+  <div class="container">
+    <a class="navbar-brand fw-semibold" href="<%= root_path %>">Application Tracker</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <% if user_signed_in? %>
+          <li class="nav-item me-2 d-flex align-items-center text-secondary">
+            <small>Signed in as <span class="fw-semibold"><%= current_user.email %></span></small>
+          </li>
+          <li class="nav-item">
+            <%= link_to "Sign out", destroy_user_session_path, data: { turbo_method: :delete }, class: "btn btn-outline-danger btn-sm" %>
+          </li>
+        <% else %>
+          <li class="nav-item me-2">
+            <%= link_to "Sign in", new_user_session_path, class: "btn btn-primary btn-sm" %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "Sign up", new_user_registration_path, class: "btn btn-outline-secondary btn-sm" %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
